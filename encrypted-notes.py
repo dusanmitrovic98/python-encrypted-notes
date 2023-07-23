@@ -23,3 +23,4 @@ def load_notes():
             decrypted_data = fernet.decrypt(encrypted_data)
             return decrypted_data.decode()
     except FileNotFoundError:
+        return ""
