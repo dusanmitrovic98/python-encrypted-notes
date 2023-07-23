@@ -74,3 +74,4 @@ def clear_notes():
     print("All notes have been cleared.")
 
 if __name__ == "__main__":
+    load_key()
