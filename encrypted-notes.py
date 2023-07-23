@@ -62,3 +62,4 @@ def remove_note():
             del lines[note_num - 1]
             updated_notes = "\n".join(lines)
             save_notes(updated_notes)
+            print("Note removed successfully!")
