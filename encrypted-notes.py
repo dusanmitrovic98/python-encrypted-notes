@@ -57,3 +57,4 @@ def remove_note():
     display_notes()
     try:
         note_num = int(input("Enter the number of the note to remove: "))
+        lines = notes.splitlines()
