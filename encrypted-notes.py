@@ -32,3 +32,4 @@ def save_notes(notes):
     with open("notes.txt", "wb") as file:
         file.write(encrypted_data)
 
+def display_notes():
