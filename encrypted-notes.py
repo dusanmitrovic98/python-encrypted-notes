@@ -64,3 +64,4 @@ def remove_note():
             save_notes(updated_notes)
             print("Note removed successfully!")
         else:
+            print("Invalid note number.")
