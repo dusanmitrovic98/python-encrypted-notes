@@ -48,3 +48,4 @@ def add_note():
     save_notes(notes)
     print("Note added successfully!")
 
+def remove_note():
