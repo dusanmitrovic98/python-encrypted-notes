@@ -33,3 +33,4 @@ def save_notes(notes):
         file.write(encrypted_data)
 
 def display_notes():
+    notes = load_notes()
