@@ -10,3 +10,4 @@ def load_key():
         with open("secret.key", "wb") as key_file:
             key_file.write(key)
     else:
+        with open("secret.key", "rb") as key_file:
