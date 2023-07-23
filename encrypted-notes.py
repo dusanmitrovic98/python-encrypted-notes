@@ -63,3 +63,4 @@ def remove_note():
             updated_notes = "\n".join(lines)
             save_notes(updated_notes)
             print("Note removed successfully!")
+        else:
