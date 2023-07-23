@@ -55,3 +55,4 @@ def remove_note():
         return
 
     display_notes()
+    try:
