@@ -79,3 +79,4 @@ if __name__ == "__main__":
     while True:
         print("\nCommand-line Note-Taking Application")
         print("1. Display Notes")
+        print("2. Add Note")
