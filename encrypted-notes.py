@@ -53,3 +53,4 @@ def remove_note():
     if not notes:
         print("No notes found.")
         return
+
