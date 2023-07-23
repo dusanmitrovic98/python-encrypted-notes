@@ -41,3 +41,4 @@ def display_notes():
     else:
         print("No notes found.")
 
+def add_note():
