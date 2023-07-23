@@ -15,3 +15,4 @@ def load_key():
     return key
 
 def load_notes():
+    try:
