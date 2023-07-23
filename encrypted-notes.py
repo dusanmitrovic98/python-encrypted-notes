@@ -90,3 +90,4 @@ if __name__ == "__main__":
         if choice == "1":
             display_notes()
         elif choice == "2":
+            add_note()
