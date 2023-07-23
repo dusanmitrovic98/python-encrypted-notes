@@ -49,3 +49,4 @@ def add_note():
     print("Note added successfully!")
 
 def remove_note():
+    notes = load_notes()
