@@ -42,3 +42,4 @@ def display_notes():
         print("No notes found.")
 
 def add_note():
+    notes = load_notes()
