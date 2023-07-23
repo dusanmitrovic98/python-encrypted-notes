@@ -35,3 +35,4 @@ def save_notes(notes):
 def display_notes():
     notes = load_notes()
     if notes:
+        print("Your encrypted notes:")
