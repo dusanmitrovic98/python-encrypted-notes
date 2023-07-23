@@ -73,3 +73,4 @@ def clear_notes():
         os.remove("notes.txt")
     print("All notes have been cleared.")
 
+if __name__ == "__main__":
