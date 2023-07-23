@@ -24,3 +24,4 @@ def load_notes():
             return decrypted_data.decode()
     except FileNotFoundError:
         return ""
+
