@@ -19,3 +19,4 @@ def load_notes():
         with open("notes.txt", "rb") as file:
             encrypted_data = file.read()
             key = load_key()
+            fernet = Fernet(key)
