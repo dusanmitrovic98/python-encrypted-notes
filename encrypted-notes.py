@@ -39,3 +39,4 @@ def display_notes():
         for i, note in enumerate(notes.splitlines(), 1):
             print(f"{i}. {note}")
     else:
+        print("No notes found.")
