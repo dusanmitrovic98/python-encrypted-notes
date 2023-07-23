@@ -16,3 +16,4 @@ def load_key():
 
 def load_notes():
     try:
+        with open("notes.txt", "rb") as file:
