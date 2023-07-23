@@ -77,3 +77,4 @@ if __name__ == "__main__":
     load_key()
 
     while True:
+        print("\nCommand-line Note-Taking Application")
