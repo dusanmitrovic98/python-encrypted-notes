@@ -25,3 +25,4 @@ def load_notes():
     except FileNotFoundError:
         return ""
 
+def save_notes(notes):
