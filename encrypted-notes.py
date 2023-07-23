@@ -85,3 +85,4 @@ if __name__ == "__main__":
         print("5. Exit")
         print("5. Exit")
 
+        choice = input("Enter your choice (1/2/3/4/5): ")
