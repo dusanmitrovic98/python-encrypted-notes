@@ -11,3 +11,4 @@ def load_key():
             key_file.write(key)
     else:
         with open("secret.key", "rb") as key_file:
+            key = key_file.read()
