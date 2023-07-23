@@ -31,3 +31,4 @@ def save_notes(notes):
     encrypted_data = fernet.encrypt(notes.encode())
     with open("notes.txt", "wb") as file:
         file.write(encrypted_data)
+
