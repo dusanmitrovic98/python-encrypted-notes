@@ -20,3 +20,4 @@ def load_notes():
             encrypted_data = file.read()
             key = load_key()
             fernet = Fernet(key)
+            decrypted_data = fernet.decrypt(encrypted_data)
