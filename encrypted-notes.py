@@ -21,3 +21,4 @@ def load_notes():
             key = load_key()
             fernet = Fernet(key)
             decrypted_data = fernet.decrypt(encrypted_data)
+            return decrypted_data.decode()
