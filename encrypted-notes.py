@@ -69,3 +69,4 @@ def remove_note():
         print("Invalid input. Please enter a valid note number.")
 
 def clear_notes():
+    if os.path.exists("notes.txt"):
