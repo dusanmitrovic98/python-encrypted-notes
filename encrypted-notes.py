@@ -6,3 +6,4 @@ def generate_key():
 
 def load_key():
     if not os.path.exists("secret.key"):
+        key = generate_key()
