@@ -59,3 +59,4 @@ def remove_note():
         note_num = int(input("Enter the number of the note to remove: "))
         lines = notes.splitlines()
         if 1 <= note_num <= len(lines):
+            del lines[note_num - 1]
