@@ -18,3 +18,4 @@ def load_notes():
     try:
         with open("notes.txt", "rb") as file:
             encrypted_data = file.read()
+            key = load_key()
