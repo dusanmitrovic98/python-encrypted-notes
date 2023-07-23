@@ -51,3 +51,4 @@ def add_note():
 def remove_note():
     notes = load_notes()
     if not notes:
+        print("No notes found.")
