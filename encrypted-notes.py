@@ -93,3 +93,4 @@ if __name__ == "__main__":
             add_note()
         elif choice == "3":
             remove_note()
+        elif choice == "4":
