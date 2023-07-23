@@ -38,3 +38,4 @@ def display_notes():
         print("Your encrypted notes:")
         for i, note in enumerate(notes.splitlines(), 1):
             print(f"{i}. {note}")
+    else:
