@@ -75,3 +75,4 @@ def clear_notes():
 
 if __name__ == "__main__":
     load_key()
+
