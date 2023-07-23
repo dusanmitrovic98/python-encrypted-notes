@@ -70,3 +70,4 @@ def remove_note():
 
 def clear_notes():
     if os.path.exists("notes.txt"):
+        os.remove("notes.txt")
