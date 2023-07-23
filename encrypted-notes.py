@@ -26,3 +26,4 @@ def load_notes():
         return ""
 
 def save_notes(notes):
+    key = load_key()
