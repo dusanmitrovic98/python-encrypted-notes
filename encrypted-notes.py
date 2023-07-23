@@ -27,3 +27,4 @@ def load_notes():
 
 def save_notes(notes):
     key = load_key()
+    fernet = Fernet(key)
