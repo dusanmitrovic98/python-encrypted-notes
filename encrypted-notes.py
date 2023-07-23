@@ -46,3 +46,4 @@ def add_note():
     new_note = input("Enter your note: ")
     notes += new_note + "\n"
     save_notes(notes)
+    print("Note added successfully!")
