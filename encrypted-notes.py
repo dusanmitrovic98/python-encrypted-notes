@@ -92,3 +92,4 @@ if __name__ == "__main__":
         elif choice == "2":
             add_note()
         elif choice == "3":
+            remove_note()
