@@ -14,3 +14,4 @@ def load_key():
             key = key_file.read()
     return key
 
+def load_notes():
