@@ -67,3 +67,4 @@ def remove_note():
             print("Invalid note number.")
     except ValueError:
         print("Invalid input. Please enter a valid note number.")
+
