@@ -36,3 +36,4 @@ def display_notes():
     notes = load_notes()
     if notes:
         print("Your encrypted notes:")
+        for i, note in enumerate(notes.splitlines(), 1):
