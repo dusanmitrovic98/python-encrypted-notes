@@ -40,3 +40,4 @@ def display_notes():
             print(f"{i}. {note}")
     else:
         print("No notes found.")
+
