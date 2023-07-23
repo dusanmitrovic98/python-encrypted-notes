@@ -43,3 +43,4 @@ def display_notes():
 
 def add_note():
     notes = load_notes()
+    new_note = input("Enter your note: ")
