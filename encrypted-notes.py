@@ -80,3 +80,4 @@ if __name__ == "__main__":
         print("\nCommand-line Note-Taking Application")
         print("1. Display Notes")
         print("2. Add Note")
+        print("3. Remove Note")
