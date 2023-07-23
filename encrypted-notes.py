@@ -47,3 +47,4 @@ def add_note():
     notes += new_note + "\n"
     save_notes(notes)
     print("Note added successfully!")
+
