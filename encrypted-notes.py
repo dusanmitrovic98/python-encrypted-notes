@@ -83,3 +83,4 @@ if __name__ == "__main__":
         print("3. Remove Note")
         print("4. Clear Notes")
         print("5. Exit")
+        print("5. Exit")
