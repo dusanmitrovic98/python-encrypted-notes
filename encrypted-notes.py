@@ -88,3 +88,4 @@ if __name__ == "__main__":
         choice = input("Enter your choice (1/2/3/4/5): ")
 
         if choice == "1":
+            display_notes()
