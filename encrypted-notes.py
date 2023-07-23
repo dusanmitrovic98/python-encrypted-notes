@@ -61,3 +61,4 @@ def remove_note():
         if 1 <= note_num <= len(lines):
             del lines[note_num - 1]
             updated_notes = "\n".join(lines)
+            save_notes(updated_notes)
